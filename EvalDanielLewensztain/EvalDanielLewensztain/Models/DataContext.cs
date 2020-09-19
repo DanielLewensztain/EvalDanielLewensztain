@@ -12,5 +12,7 @@ namespace EvalDanielLewensztain.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<EvalDanielLewensztain.Models.Lewensztain> Lewensztains { get; set; }
     }
 }
